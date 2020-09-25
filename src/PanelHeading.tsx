@@ -29,8 +29,7 @@ class PanelHeadingView extends ComponentEx<IProps, {}> {
                 <MainPage.Body>
                         <Panel id="test-panel-heading">
                             <Panel.Heading>
-                                
-                                        This heading will cause the layout to be shifted down incorrectly so the bounds of the panel body below will extend below the app's bounds.
+                                This heading will cause the layout to be shifted down incorrectly so the bounds of the panel body below will extend below the app's bounds.
                             </Panel.Heading>
                             <Panel.Body>
                                 <FlexLayout type="row">
